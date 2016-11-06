@@ -1,0 +1,591 @@
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width">
+    <script src='file:///android_asset/app.js'></script>
+<script> 
+  lay = app.CreateLayout( "linear", "VCenter,FillXY" );
+
+  web = app.CreateWebView( 0.8, 0.8 );
+web = app.CreateWebView( 1,0.9,"ignoreErrors" );
+app.SetOptions("ignoreErrors")
+ lay.AddChild( web )</script>
+</head>
+	
+<script>
+    //Called after application is started.
+    function OnStart()
+    {
+    app.ShowPopup( "Vecino, haz tu denuncia!" );
+    }
+    
+  //app.EnableBackKey( true ); 
+  //lay = app.CreateLayout( "linear", "VCenter,FillXY" );
+ // web = app.CreateWebView( 1,0.9,"ignoreErrors" )
+ // lay.AddChild( web );
+</script>
+
+<style>
+	body { background-color: #ffffff; }
+    .hello 
+    { 
+        font-size: 42; 
+        width: 100%;
+        margin-top: 2em;
+        text-align: center;
+        color: blue;
+    }
+</style>
+
+<body onload="app.Start()">
+
+	<div class=hello> Hello World! </div>
+	
+	 >Insert an image from another folder:</p>
+<img src="/images/stickman.gif" alt="Stickman" width="24" height="39">
+
+<p>Insert an image from a web site:</p>
+<img src="http://www.w3schools.com/images/lamp.jpg" alt="Lamp" width="55" height = "55">
+<p>Insert foto denuncia(desde GoogleDrive)<p>
+/*<img src = "https://drive.google.com/uc?export = view&id =0B9z0Wbd1goZ-NV93ZFpnRVNtc1k" alt="Taller" width="90" height="90">*/
+<img src = " http://drive.google.com/uc?export=view&id=0B9z0Wbd1goZ-NV93ZFpnRVNtc1k"alt="Taller" width="100" height="100">
+<p>Foto almacenada en  mi tablet<p>
+<img src =" file:///storage/emulated/0/twattachment.jpeg" alt = "Electrocut" width = "100" height = "100">
+
+<Img src ="file:///storage/emulated/0/brazuca-ball.png" alt = "futbol" width = "100" height = "100">
+
+<p>Algunos videos<p>
+
+<video src="http://www.example.com/movie.ogg" alt = "Osito" width = "300" height = "200">
+
+<p>Algunos videos Youtube<p>
+
+<video src ="https://youtu.be/AXpdilJTxIk" alt = "youTube" width = "300" height = "200">
+
+<p> Youtube embeded old code?<p>
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/kxwVQJFz5aY">
+</iframe>
+<iframe width="420" height="345" src="https://www.youtube.com/embed/AXpdilJTxIk">
+</iframe>
+// Revisar ya al poner este enlace se elimina la info mas abajo
+<!--<iframe width = "420" height "354" src=" https://youtube.com/embed/WYrNfAezMPw">-->
+<p>Otra prueba de youtube<p>
+<video src="https://youtu.be/AXpdilJTxIk"
+width ="420" height ="345">
+<p>Algunos videos<p>
+<p>The GIF standard allows moving images.From my Google Drive.</p>
+
+<img src="https://drive.google.com/uc?export=view&id=0B9z0Wbd1goZ-TzJJSjlJSzE0SmM " alt="Computer man" style="width:68px;height:68px;">
+<p>Algunos enlaces a Google Drive<p>
+<Img src =" http://drive.google.com/uc?export=view&id=0B9z0Wbd1goZ-cWk1WG5WR1RpUGs"alt = "picmountain"style="width:420px;height:325px;">
+<p>Algunos videos<p>
+<video src = "https://youtu.be/WYrNfAezMPw"
+<p>Algunos videos<p>
+
+<h1>Algunos links importantes<h1>
+
+  <li><a href="#books in Amazon">Books in Amazon and more</a></li>
+ <li><a href="#template from W3">Templates on W3</a></li>   
+<li><a href = "http:www.w3schools.com/w3css/w3css_templates.asp" title="Templates">TemPLatEs</a></li>
+<li><a href="http://software.yoreparo.com/windows/254756.html
+Title="failure HDD laptop">"failure HDD laptop"
+<li><a href = "http://aps2.toshiba-tro.de/kb0/HTD1303440001R01ES.htm#"
+Title = "HDD Toshiba">Toshiba Recovery hard disk
+<li><a href=" http:www.freebooksifter.com/?src=2 
+ " title="Free books">Free and not too free books</a></li>
+<li><a href=" http://www.flotcharts.org"title="Flotcharts from DSmart forum">FloTcharts</a></li>
+<Li><a href = "http://www.maduradas.com/recetas-de-la-crisis-te-decimos-como-preparar-pan-de-maiz-sin-harina-facilito/
+Title="recetas de maduradas.com">Maduradas.com,receTas,mantequilla etc</a></li>
+<Li><a href = http://www.elgatogoloso.com/2014/08/pan-de-hamburguesa-super-rapido.html?m=1
+Title="elgatogoloso.com,pan de hamburguesas">elGatoGoloso,PandeHamburguesa
+<Li><a href = http://visihow.com/Connect_your_Samsung_Galaxy_Tab_2_or_3_(tab_10.1,_Tab_8.9,_Tab_7.7,_Tab_7.0_Plus)_to_your_TV
+Title="cableTab2Samsung">CableTab2Samsung
+<Li><a href = http://www.elrincondebea.com/2016/07/como-usar-tu-batidora-kitchenaid-2.html
+Title="KA">El Rincon de Bea.Kitchen Aid
+<Li><a href=http://http://www.instructables.com/id/DIY-AUTOMATIC-SOLAR-CHARGE-CONTROLLER/
+Title="Solar">Regulador cargador solar Instructable
+<Li><a href=http://https://m3n3chm0.wordpress.com/2007/08/17/httpwwwwindowsuecom-cieera-sus-puertas-s/
+Title="Windowsue">WindowsUe.WordPress
+<Li><a href = http://https://downloadcenter.intel.com/download/18408
+Title = "controladores">Controladores Intel WinXP 
+<Li><a href = http://filehippo.com/es/search?q=Windows+xp
+Title = "file hippo">Descarga archivos.FileHippo
+<Li><a href = http://pokoxemo.blogspot.mx
+Title = "img burner">Image burner para *Iso
+<Li><a href = http://http://www.toshiba.es/support/drivers/laptops
+Title = "driver Toshiba">driver Toshiba
+<Li><a href = http://http://blog.mrbeer.com/homebrewing-tips-to-become-an-expert/?_ke=ZnZjaDIxQGdtYWlsLmNvbQ%3D%3D
+Title="Mr Beer">Mr Beer blog
+<Li><a href = http://http://lifehacker.com/5983680/how-the-heck-do-i-use-github
+Title = "gitHub">Tutorial gitHub
+<Li><a href = http://http://www.sqlitetutorial.net
+Title = "TutorialSql">Tutorial Sql Lite
+<Li><a href = http://http://www.makeuseof.com/tag/microsoft-can-monetize-windows-10/
+Title = "Windows10">Windows 10</a></li>
+<li><a href = http://tucuatro.com/song/jamming/
+>Tu Cuatro</a></li>
+
+<Li><a href = http://http://www.makeuseof.com/tag/microsoft-can-monetize-windows-10/
+Title = "Windows10">espacio libre0</a></li>
+
+
+
+<article role="main" id="top">
+<!--<h1>Web Resources Depot</h1>
+<nav role="navigation">
+  <ul>
+    <li><a href="#css2">CSS 2</a></li>
+    <li><a href="#css3">CSS 3</a></li>
+    <li><a href="#html">HTML</a></li>
+    <li><a href="#javascript">JavaScript</a></li>
+    <li><a href="#design">Design</a></li>
+    <li><a href="#responsive">Responsive</a></li>
+    <li><a href="#php">PHP / MySQL</a></li>
+    <li><a href="#performance">Performance</a></li>
+    <li><a href="#various">Various</a></li>
+    <li><a href="#typography">Typography</a></li>
+  </ul>
+</nav>
+  
+<article role="main" id="top">
+
+  
+<section id="css2">
+  <h2>CSS 2 <a href="#top">top</a></h2>
+<ul>
+<li><a href="http://css-tricks.com/attribute-selectors/" title="Attribute selectors">Attribute selectors</a></li>
+<li><a href="http://paulirish.com/2009/browser-specific-css-hacks/" title="Browser hacks">Browser hacks</a></li>
+<li><a href="http://css-tricks.com/specifics-on-css-specificity/" title="Cascading and selector weight">Cascading and selector weight</a></li>
+<li><a href="http://css-tricks.com/child-and-sibling-selectors/" title="Child and sibling selectors">Child and sibling selectors</a></li>
+<li><a href="http://css-tricks.com/custom-scrollbars-in-webkit/" title="Custom scrollbars on WebKit">Custom scrollbars on WebKit</a></li>
+<li><a href="http://css-tricks.com/perfect-full-page-background-image/" title="Full-page background">Full-page background</a></li>
+<li><a href="http://designfestival.com/the-cicada-principle-and-why-it-matters-to-web-designers/" title="Infinite random background">Infinite random background</a></li>
+<li><a href="http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/" title="Multiple backgrounds and borders">Multiple backgrounds and borders</a></li>
+<li><a href="http://josh.github.com/css-explain/" title="CSS Explain">CSS Explain</a></li>
+<li><a href="http://csscomb.com/online/" title="CSS properties sorter">CSS properties sorter</a></li>
+<li><a href="http://quirksmode.org/css/selectors/mobile.html" title="CSS selectors mobile table">CSS selectors mobile table</a></li>
+<li><a href="http://csslint.net" title="CSS validator">CSS validator</a></li>
+<li><a href="http://apps.eky.hk/css-triangle-generator/" title="CSS triangles generator">CSS triangles generator</a></li>
+<li><a href="http://css-tricks.com/snippets/css/css-diagnostics/" title="CSS diagnostic (debugging)">CSS diagnostic (debugging)</a></li>
+<li><a href="http://kushagragour.in/lab/hint/" title="CSS tooltips">CSS tooltips</a></li>
+<li><a href="http://css-tricks.com/specifics-on-css-specificity/" title="Cascading and selector weight">Cascading and selector weight</a></li>
+<li><a href="http://css-tricks.com/child-and-sibling-selectors/" title="Child and sibling selectors">Child and sibling selectors</a></li>
+<li><a href="http://css-tricks.com/custom-scrollbars-in-webkit/" title="Custom scrollbars on WebKit">Custom scrollbars on WebKit</a></li>
+<li><a href="http://css-tricks.com/perfect-full-page-background-image/" title="Full-page background">Full-page background</a></li>
+<li><a href="http://designfestival.com/the-cicada-principle-and-why-it-matters-to-web-designers/" title="Infinite random background">Infinite random background</a></li>
+<li><a href="http://nicolasgallagher.com/multiple-backgrounds-and-borders-with-css2/" title="Multiple backgrounds and borders">Multiple backgrounds and borders</a></li>
+<li><a href="http://josh.github.com/css-explain/" title="CSS Explain">CSS Explain</a></li>
+<li><a href="http://csscomb.com/online/" title="CSS properties sorter">CSS properties sorter</a></li>
+<li><a href="http://quirksmode.org/css/selectors/mobile.html" title="CSS selectors mobile table">CSS selectors mobile table</a></li>
+<li><a href="http://csslint.net" title="CSS validator">CSS validator</a></li>
+<li><a href="http://apps.eky.hk/css-triangle-generator/" title="CSS triangles generator">CSS triangles generator</a></li>
+<li><a href="http://css-tricks.com/snippets/css/css-diagnostics/" title="CSS diagnostic (debugging)">CSS diagnostic (debugging)</a></li>
+<li><a href="http://kushagragour.in/lab/hint/" title="CSS tooltips">CSS tooltips</a></li>
+<li><a href="http://necolas.github.com/normalize.css/" title="Normalize.css">Normalize.css</a></li>
+<li><a href="https://github.com/h5bp/html5-boilerplate/blob/master/css/main.css" title="Starting stylesheet">Starting stylesheet</a></li>
+</ul>
+      </section>
+  
+  <section id="css3">
+<h2>CSS 3 <a href="#top">top</a></h2>
+<ul>
+<li><a href="http://nthmaster.com/" title=":nth-child property">:nth-child property</a></li>
+<li><a href="http://nicolasgallagher.com/css-background-image-hacks/" title="Advanced backgrounds">Advanced backgrounds</a></li>
+<li><a href="http://www.creativejuiz.fr/blog/tutoriels/ombre-avancees-avec-css3-et-box-shadow" title="Advanced shadows">Advanced shadows</a></li>
+<li><a href="http://css-tricks.com/the-checkbox-hack/" title="Checkbox hack">Checkbox hack</a></li>
+<li><a href="http://lea.verou.me/ft2010/#intro" title="CSS 3 practical intro">CSS 3 practical intro</a></li>
+<li><a href="http://lea.verou.me/css3-secrets/#intro" title="CSS 3 tricks">CSS 3 tricks</a></li>
+<li><a href="http://desandro.github.com/3dtransforms/docs/introduction.html" title="CSS 3D transforms">CSS 3D transforms</a></li>
+<li><a href="http://blog.kenneth.io/blog/2012/03/04/word-wrapping-hypernation-using-css/" title="CSS hyphens &amp; word-break">CSS hyphens &amp; word-break</a></li>
+<li><a href="http://net.tutsplus.com/tutorials/html-css-techniques/an-introduction-to-css-flexbox/" title="Display: flex;">Display: flex;</a></li>
+<li><a href="http://thoughtresults.com/grid-layout" title="Display: grid;">Display: grid;</a></li>
+<li><a href="http://playground.genelocklin.com/gradient-hr/#links" title="Gradient lines">Gradient lines</a></li>
+<li><a href="http://www.aaronlumsden.com/css3/an-introduction-to-css-variables/" title="Introduction to CSS variables">Introduction to CSS variables</a></li>
+<li><a href="http://www.webdirections.org/blog/css3-radial-gradients/" title="Radial gradients">Radial gradients</a></li>
+<li><a href="http://leaverou.github.com/animatable/" title="Advanced transitions">Advanced transitions</a></li>
+<li><a href="http://viget.com/uploads/file/boxshadows/" title="Box-shadow tricks (Chrome 11+)">Box-shadow tricks (Chrome 11+)</a></li>
+<li><a href="http://www.creativejuiz.fr/blog/tutoriels/ombre-avancees-avec-css3-et-box-shadow" title="Advanced shadows">Advanced shadows</a></li>
+<li><a href="http://css-tricks.com/the-checkbox-hack/" title="Checkbox hack">Checkbox hack</a></li>
+<li><a href="http://lea.verou.me/ft2010/#intro" title="CSS 3 practical intro">CSS 3 practical intro</a></li>
+<li><a href="http://lea.verou.me/css3-secrets/#intro" title="CSS 3 tricks">CSS 3 tricks</a></li>
+<li><a href="http://desandro.github.com/3dtransforms/docs/introduction.html" title="CSS 3D transforms">CSS 3D transforms</a></li>
+<li><a href="http://blog.kenneth.io/blog/2012/03/04/word-wrapping-hypernation-using-css/" title="CSS hyphens &amp; word-break">CSS hyphens &amp; word-break</a></li>
+<li><a href="http://net.tutsplus.com/tutorials/html-css-techniques/an-introduction-to-css-flexbox/" title="Display: flex;">Display: flex;</a></li>
+<li><a href="http://thoughtresults.com/grid-layout" title="Display: grid;">Display: grid;</a></li>
+<li><a href="http://playground.genelocklin.com/gradient-hr/#links" title="Gradient lines">Gradient lines</a></li>
+<li><a href="http://www.aaronlumsden.com/css3/an-introduction-to-css-variables/" title="Introduction to CSS variables">Introduction to CSS variables</a></li>
+<li><a href="http://www.webdirections.org/blog/css3-radial-gradients/" title="Radial gradients">Radial gradients</a></li>
+<li><a href="http://leaverou.github.com/animatable/" title="Advanced transitions">Advanced transitions</a></li>
+<li><a href="http://viget.com/uploads/file/boxshadows/" title="Box-shadow tricks (Chrome 11+)">Box-shadow tricks (Chrome 11+)</a></li>
+<li><a href="http://beta.theexpressiveweb.com/" title="CSS 3 demo">CSS 3 demo</a></li>
+<li><a href="http://tympanus.net/Tutorials/CreativeCSS3AnimationMenus/index.html" title="Menus using transitions / transforms">Menus using transitions / transforms</a></li>
+<li><a href="http://lab.hakim.se/scroll-effects/" title="Scroll effects">Scroll effects</a></li>
+<li><a href="http://lea.verou.me/css3patterns/" title="Background library">Background library</a></li>
+<li><a href="http://daneden.me/animate/" title="CSS 3 animations library">CSS 3 animations library</a></li>
+<li><a href="http://css-tricks.com/examples/nth-child-tester/" title=":nth-child property tool">:nth-child property tool</a></li>
+<li><a href="http://css.coloratum.com/" title="Color codes converter">Color codes converter</a></li>
+<li><a href="http://meyerweb.com/eric/css/colors/" title="Color equivalents table">Color equivalents table</a></li>
+<li><a href="http://css3test.com/" title="CSS 3 browser test">CSS 3 browser test</a></li>
+<li><a href="http://bennettfeely.com/flexplorer/" title="Flexbox explorer (Flexplorer)">Flexbox explorer (Flexplorer)</a></li>
+<li><a href="http://lea.verou.me/demos/cssgradientsplease/" title="Gradients prefixer">Gradients prefixer</a></li>
+<li><a href="http://www.creativejuiz.fr/blog/tutoriels/ombre-avancees-avec-css3-et-box-shadow" title="Advanced shadows">Advanced shadows</a></li>
+<li><a href="http://css-tricks.com/the-checkbox-hack/" title="Checkbox hack">Checkbox hack</a></li>
+<li><a href="http://lea.verou.me/ft2010/#intro" title="CSS 3 practical intro">CSS 3 practical intro</a></li>
+<li><a href="http://lea.verou.me/css3-secrets/#intro" title="CSS 3 tricks">CSS 3 tricks</a></li>
+<li><a href="http://desandro.github.com/3dtransforms/docs/introduction.html" title="CSS 3D transforms">CSS 3D transforms</a></li>
+<li><a href="http://blog.kenneth.io/blog/2012/03/04/word-wrapping-hypernation-using-css/" title="CSS hyphens &amp; word-break">CSS hyphens &amp; word-break</a></li>
+<li><a href="http://net.tutsplus.com/tutorials/html-css-techniques/an-introduction-to-css-flexbox/" title="Display: flex;">Display: flex;</a></li>
+<li><a href="http://thoughtresults.com/grid-layout" title="Display: grid;">Display: grid;</a></li>
+<li><a href="http://playground.genelocklin.com/gradient-hr/#links" title="Gradient lines">Gradient lines</a></li>
+<li><a href="http://www.aaronlumsden.com/css3/an-introduction-to-css-variables/" title="Introduction to CSS variables">Introduction to CSS variables</a></li>
+<li><a href="http://www.webdirections.org/blog/css3-radial-gradients/" title="Radial gradients">Radial gradients</a></li>
+<li><a href="http://leaverou.github.com/animatable/" title="Advanced transitions">Advanced transitions</a></li>
+<li><a href="http://viget.com/uploads/file/boxshadows/" title="Box-shadow tricks (Chrome 11+)">Box-shadow tricks (Chrome 11+)</a></li>
+<li><a href="http://beta.theexpressiveweb.com/" title="CSS 3 demo">CSS 3 demo</a></li>
+<li><a href="http://tympanus.net/Tutorials/CreativeCSS3AnimationMenus/index.html" title="Menus using transitions / transforms">Menus using transitions / transforms</a></li>
+<li><a href="http://lab.hakim.se/scroll-effects/" title="Scroll effects">Scroll effects</a></li>
+<li><a href="http://lea.verou.me/css3patterns/" title="Background library">Background library</a></li>
+<li><a href="http://daneden.me/animate/" title="CSS 3 animations library">CSS 3 animations library</a></li>
+<li><a href="http://css-tricks.com/examples/nth-child-tester/" title=":nth-child property tool">:nth-child property tool</a></li>
+<li><a href="http://css.coloratum.com/" title="Color codes converter">Color codes converter</a></li>
+<li><a href="http://meyerweb.com/eric/css/colors/" title="Color equivalents table">Color equivalents table</a></li>
+<li><a href="http://css3test.com/" title="CSS 3 browser test">CSS 3 browser test</a></li>
+<li><a href="http://bennettfeely.com/flexplorer/" title="Flexbox explorer (Flexplorer)">Flexbox explorer (Flexplorer)</a></li>
+<li><a href="http://lea.verou.me/demos/cssgradientsplease/" title="Gradients prefixer">Gradients prefixer</a></li>
+<li><a href="http://css3ps.com" title="Photoshop to CSS 3">Photoshop to CSS 3</a></li>
+<li><a href="http://caniuse.com/" title="Support tables for HTML 5 &amp; CSS 3">Support tables for HTML 5 &amp; CSS 3</a></li>
+<li><a href="http://www.css3maker.com/" title="Code generator">Code generator</a></li>
+<li><a href="http://cssarrowplease.com/" title="CSS arrows generator">CSS arrows generator</a></li>
+<li><a href="http://www.colorzilla.com/gradient-editor/" title="Gradient generator (ColorZilla)">Gradient generator (ColorZilla)</a></li>
+<li><a href="http://css-tricks.com/yay-for-hsla/" title="HSLa colors generator">HSLa colors generator</a></li>
+<li><a href="http://proto.io/freebies/onoff/" title="On/Off flipswitch generator">On/Off flipswitch generator</a></li>
+<li><a href="http://www.css3d.net/ribbon-generator/" title="Ribbons generator">Ribbons generator</a></li>
+<li><a href="http://www.tabsgenerator.com/?page=index" title="Tabs generator">Tabs generator</a></li>
+<li><a href="http://ademilter.com/lab/liffect/" title="Animations for list items (Liffect)">Animations for list items (Liffect)</a></li>
+<li><a href="http://css3pie.com/" title="Basic CSS 3 for IE6-9">Basic CSS 3 for IE6-9</a></li>
+<li><a href="http://css3test.com/" title="CSS 3 browser test">CSS 3 browser test</a></li>
+<li><a href="http://bennettfeely.com/flexplorer/" title="Flexbox explorer (Flexplorer)">Flexbox explorer (Flexplorer)</a></li>
+<li><a href="http://lea.verou.me/demos/cssgradientsplease/" title="Gradients prefixer">Gradients prefixer</a></li>
+<li><a href="http://css3ps.com" title="Photoshop to CSS 3">Photoshop to CSS 3</a></li>
+<li><a href="http://caniuse.com/" title="Support tables for HTML 5 &amp; CSS 3">Support tables for HTML 5 &amp; CSS 3</a></li>
+<li><a href="http://www.css3maker.com/" title="Code generator">Code generator</a></li>
+<li><a href="http://cssarrowplease.com/" title="CSS arrows generator">CSS arrows generator</a></li>
+<li><a href="http://www.colorzilla.com/gradient-editor/" title="Gradient generator (ColorZilla)">Gradient generator (ColorZilla)</a></li>
+<li><a href="http://css-tricks.com/yay-for-hsla/" title="HSLa colors generator">HSLa colors generator</a></li>
+<li><a href="http://proto.io/freebies/onoff/" title="On/Off flipswitch generator">On/Off flipswitch generator</a></li>
+<li><a href="http://www.css3d.net/ribbon-generator/" title="Ribbons generator">Ribbons generator</a></li>
+<li><a href="http://www.tabsgenerator.com/?page=index" title="Tabs generator">Tabs generator</a></li>
+<li><a href="http://ademilter.com/lab/liffect/" title="Animations for list items (Liffect)">Animations for list items (Liffect)</a></li>
+<li><a href="http://css3pie.com/" title="Basic CSS 3 for IE6-9">Basic CSS 3 for IE6-9</a></li>
+<li><a href="http://css-tricks.com/examples/hrs/" title="Styling &lt;hr /&gt; tags">Styling &lt;hr /&gt; tags</a></li>
+</ul>
+  </section>
+  <section id="html">
+<h2>HTML <a href="#top">top</a></h2>
+<ul>
+<li><a href="http://camendesign.com/code/video_for_everybody" title="&lt;video&gt; tag / Flash fallback">&lt;video&gt; tag / Flash fallback</a></li>
+<li><a href="http://freehtml5templates.com/downloads/free/html5-quick-learning-quide.pdf" title="Basic HTML 5 learning">Basic HTML 5 learning</a></li>
+<li><a href="http://html5please.com/" title="HTML 5 / CSS 3 look up">HTML 5 / CSS 3 look up</a></li>
+<li><a href="http://net.tutsplus.com/tutorials/html-css-techniques/build-a-neat-html5-powered-contact-form/" title="HTML 5 contact form">HTML 5 contact form</a></li>
+<li><a href="http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf" title="HTML 5 flowchart">HTML 5 flowchart</a></li>
+<li><a href="http://css3test.com/" title="CSS 3 browser test">CSS 3 browser test</a></li>
+<li><a href="http://bennettfeely.com/flexplorer/" title="Flexbox explorer (Flexplorer)">Flexbox explorer (Flexplorer)</a></li>
+<li><a href="http://lea.verou.me/demos/cssgradientsplease/" title="Gradients prefixer">Gradients prefixer</a></li>
+<li><a href="http://css3ps.com" title="Photoshop to CSS 3">Photoshop to CSS 3</a></li>
+<li><a href="http://caniuse.com/" title="Support tables for HTML 5 &amp; CSS 3">Support tables for HTML 5 &amp; CSS 3</a></li>
+<li><a href="http://www.css3maker.com/" title="Code generator">Code generator</a></li>
+<li><a href="http://cssarrowplease.com/" title="CSS arrows generator">CSS arrows generator</a></li>
+<li><a href="http://www.colorzilla.com/gradient-editor/" title="Gradient generator (ColorZilla)">Gradient generator (ColorZilla)</a></li>
+<li><a href="http://css-tricks.com/yay-for-hsla/" title="HSLa colors generator">HSLa colors generator</a></li>
+<li><a href="http://proto.io/freebies/onoff/" title="On/Off flipswitch generator">On/Off flipswitch generator</a></li>
+<li><a href="http://www.css3d.net/ribbon-generator/" title="Ribbons generator">Ribbons generator</a></li>
+<li><a href="http://www.tabsgenerator.com/?page=index" title="Tabs generator">Tabs generator</a></li>
+<li><a href="http://ademilter.com/lab/liffect/" title="Animations for list items (Liffect)">Animations for list items (Liffect)</a></li>
+<li><a href="http://css3pie.com/" title="Basic CSS 3 for IE6-9">Basic CSS 3 for IE6-9</a></li>
+<li><a href="http://css-tricks.com/examples/hrs/" title="Styling &lt;hr /&gt; tags">Styling &lt;hr /&gt; tags</a></li>
+</ul>
+  </section>
+  <section id="html">
+<h2>HTML <a href="#top">top</a></h2>
+<ul>
+<li><a href="http://camendesign.com/code/video_for_everybody" title="&lt;video&gt; tag / Flash fallback">&lt;video&gt; tag / Flash fallback</a></li>
+<li><a href="http://freehtml5templates.com/downloads/free/html5-quick-learning-quide.pdf" title="Basic HTML 5 learning">Basic HTML 5 learning</a></li>
+<li><a href="http://html5please.com/" title="HTML 5 / CSS 3 look up">HTML 5 / CSS 3 look up</a></li>
+<li><a href="http://net.tutsplus.com/tutorials/html-css-techniques/build-a-neat-html5-powered-contact-form/" title="HTML 5 contact form">HTML 5 contact form</a></li>
+<li><a href="http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf" title="HTML 5 flowchart">HTML 5 flowchart</a></li>
+<li><a href="http://five.squarespace.com/display/ShowHelp?section=Markdown" title="Markdown syntax reference">Markdown syntax reference</a></li>
+<li><a href="http://www.useragentman.com/blog/2012/01/03/cross-browser-html5-progress-bars-in-depth/" title="Progress bars &lt;progress&gt;">Progress bars &lt;progress&gt;</a></li>
+<li><a href="http://benvinegar.github.com/seamless-talk/" title="Seamless attribute for iframes">Seamless attribute for iframes</a></li>
+<li><a href="http://slides.html5rocks.com/#landing-slide" title="HTML 5 demo">HTML 5 demo</a></li>
+<li><a href="https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills" title="HTML / API (+CSS) polyfills">HTML / API (+CSS) polyfills</a></li>
+<li><a href="http://cssglobe.com/post/3875/cssg-collections-web-forms" title="Pre-built forms">Pre-built forms</a></li>
+<li><a href="http://coding.smashingmagazine.com/2008/08/13/top-10-css-table-designs/" title="Pre-built tables">Pre-built tables</a></li>
+<li><a href="http://html5test.com/" title="Browser HTML5 test">Browser HTML5 test</a></li>
+<li><a href="http://docs.emmet.io/" title="Emmet (Zen Coding)">Emmet (Zen Coding)</a></li>
+<li><a href="http://html-ipsum.com/" title="HTML-wrapped lorem ipsum">HTML-wrapped lorem ipsum</a></li>
+<li><a href="https://github.com/h5bp/html5-boilerplate/blob/master/index.html" title="Starting HTML 5 page">Starting HTML 5 page</a></li>
+<li><a href="http://html5please.com/" title="HTML 5 / CSS 3 look up">HTML 5 / CSS 3 look up</a></li>
+<li><a href="http://net.tutsplus.com/tutorials/html-css-techniques/build-a-neat-html5-powered-contact-form/" title="HTML 5 contact form">HTML 5 contact form</a></li>
+<li><a href="http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf" title="HTML 5 flowchart">HTML 5 flowchart</a></li>
+<li><a href="http://five.squarespace.com/display/ShowHelp?section=Markdown" title="Markdown syntax reference">Markdown syntax reference</a></li>
+<li><a href="http://www.useragentman.com/blog/2012/01/03/cross-browser-html5-progress-bars-in-depth/" title="Progress bars &lt;progress&gt;">Progress bars &lt;progress&gt;</a></li>
+<li><a href="http://benvinegar.github.com/seamless-talk/" title="Seamless attribute for iframes">Seamless attribute for iframes</a></li>
+<li><a href="http://slides.html5rocks.com/#landing-slide" title="HTML 5 demo">HTML 5 demo</a></li>
+<li><a href="https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills" title="HTML / API (+CSS) polyfills">HTML / API (+CSS) polyfills</a></li>
+<li><a href="http://cssglobe.com/post/3875/cssg-collections-web-forms" title="Pre-built forms">Pre-built forms</a></li>
+<li><a href="http://coding.smashingmagazine.com/2008/08/13/top-10-css-table-designs/" title="Pre-built tables">Pre-built tables</a></li>
+<li><a href="http://html5test.com/" title="Browser HTML5 test">Browser HTML5 test</a></li>
+<li><a href="http://docs.emmet.io/" title="Emmet (Zen Coding)">Emmet (Zen Coding)</a></li>
+<li><a href="http://html-ipsum.com/" title="HTML-wrapped lorem ipsum">HTML-wrapped lorem ipsum</a></li>
+<li><a href="https://github.com/h5bp/html5-boilerplate/blob/master/index.html" title="Starting HTML 5 page">Starting HTML 5 page</a></li>
+</ul>
+      </section>
+  <section id="design">
+<h2>Design <a href="#top">top</a></h2>
+<ul>
+<li><a href="http://www.backgroundlabs.com/" title="Background (gif/psd) library">Background (gif/psd) library</a></li>
+<li><a href="http://www.iconfinder.com/" title="Icon search engine">Icon search engine</a></li>
+<li><a href="http://www.ajaxload.info/" title="Loadbar library">Loadbar library</a></li>
+<li><a href="http://patterns.ava7.com/" title="Pattern library">Pattern library</a></li>
+<li><a href="http://www.sxc.hu/" title="Photo library">Photo library</a></li>
+<li><a href="http://colour.charlottedann.com/" title="Official brand colors">Official brand colors</a></li>
+<li><a href="http://html5please.com/" title="HTML 5 / CSS 3 look up">HTML 5 / CSS 3 look up</a></li>
+<li><a href="http://net.tutsplus.com/tutorials/html-css-techniques/build-a-neat-html5-powered-contact-form/" title="HTML 5 contact form">HTML 5 contact form</a></li>
+<li><a href="http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf" title="HTML 5 flowchart">HTML 5 flowchart</a></li>
+<li><a href="http://five.squarespace.com/display/ShowHelp?section=Markdown" title="Markdown syntax reference">Markdown syntax reference</a></li>
+<li><a href="http://www.useragentman.com/blog/2012/01/03/cross-browser-html5-progress-bars-in-depth/" title="Progress bars &lt;progress&gt;">Progress bars &lt;progress&gt;</a></li>
+<li><a href="http://benvinegar.github.com/seamless-talk/" title="Seamless attribute for iframes">Seamless attribute for iframes</a></li>
+<li><a href="http://slides.html5rocks.com/#landing-slide" title="HTML 5 demo">HTML 5 demo</a></li>
+<li><a href="https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills" title="HTML / API (+CSS) polyfills">HTML / API (+CSS) polyfills</a></li>
+<li><a href="http://cssglobe.com/post/3875/cssg-collections-web-forms" title="Pre-built forms">Pre-built forms</a></li>
+<li><a href="http://coding.smashingmagazine.com/2008/08/13/top-10-css-table-designs/" title="Pre-built tables">Pre-built tables</a></li>
+<li><a href="http://html5test.com/" title="Browser HTML5 test">Browser HTML5 test</a></li>
+<li><a href="http://docs.emmet.io/" title="Emmet (Zen Coding)">Emmet (Zen Coding)</a></li>
+<li><a href="http://html-ipsum.com/" title="HTML-wrapped lorem ipsum">HTML-wrapped lorem ipsum</a></li>
+<li><a href="https://github.com/h5bp/html5-boilerplate/blob/master/index.html" title="Starting HTML 5 page">Starting HTML 5 page</a></li>
+</ul>
+      </section>
+  <section id="design">
+<h2>Design <a href="#top">top</a></h2>
+<ul>
+<li><a href="http://www.backgroundlabs.com/" title="Background (gif/psd) library">Background (gif/psd) library</a></li>
+<li><a href="http://www.iconfinder.com/" title="Icon search engine">Icon search engine</a></li>
+<li><a href="http://www.ajaxload.info/" title="Loadbar library">Loadbar library</a></li>
+<li><a href="http://patterns.ava7.com/" title="Pattern library">Pattern library</a></li>
+<li><a href="http://www.sxc.hu/" title="Photo library">Photo library</a></li>
+<li><a href="http://colour.charlottedann.com/" title="Official brand colors">Official brand colors</a></li>
+<li><a href="http://pixlr.com/editor/" title="Online Photoshop">Online Photoshop</a></li>
+<li><a href="http://styloapp.com/" title="UI design tool (Stylo)">UI design tool (Stylo)</a></li>
+<li><a href="http://wireframe.cc/" title="UI design tool (Wireframe)">UI design tool (Wireframe)</a></li>
+<li><a href="http://0to255.com/" title="Color generator (0to255)">Color generator (0to255)</a></li>
+<li><a href="http://colorschemedesigner.com/" title="Color generator (CSD)">Color generator (CSD)</a></li>
+<li><a href="http://kuler.adobe.com/#themes/rating?time=30" title="Color generator (Kuler)">Color generator (Kuler)</a></li>
+<li><a href="http://www.noisetexturegenerator.com/" title="Noise texture generator">Noise texture generator</a></li>
+<li><a href="http://www.patternify.com/" title="Pattern generator">Pattern generator</a></li>
+<li><a href="http://www.stripegenerator.com/" title="Stripe generator">Stripe generator</a></li>
+</ul>
+      </section>
+<li><a href="http://www.ajaxload.info/" title="Loadbar library">Loadbar library</a></li>
+<li><a href="http://patterns.ava7.com/" title="Pattern library">Pattern library</a></li>
+<li><a href="http://www.sxc.hu/" title="Photo library">Photo library</a></li>
+<li><a href="http://colour.charlottedann.com/" title="Official brand colors">Official brand colors</a></li>
+<li><a href="http://pixlr.com/editor/" title="Online Photoshop">Online Photoshop</a></li>
+<li><a href="http://styloapp.com/" title="UI design tool (Stylo)">UI design tool (Stylo)</a></li>
+<li><a href="http://wireframe.cc/" title="UI design tool (Wireframe)">UI design tool (Wireframe)</a></li>
+<li><a href="http://0to255.com/" title="Color generator (0to255)">Color generator (0to255)</a></li>
+<li><a href="http://colorschemedesigner.com/" title="Color generator (CSD)">Color generator (CSD)</a></li>
+<li><a href="http://kuler.adobe.com/#themes/rating?time=30" title="Color generator (Kuler)">Color generator (Kuler)</a></li>
+<li><a href="http://www.noisetexturegenerator.com/" title="Noise texture generator">Noise texture generator</a></li>
+<li><a href="http://www.patternify.com/" title="Pattern generator">Pattern generator</a></li>
+<li><a href="http://www.stripegenerator.com/" title="Stripe generator">Stripe generator</a></li>
+</ul>
+      </section>
+  <section id="frameworks">
+<h2>Frameworks <a href="#top">top</a></h2>
+<ul>
+<li><a href="http://codepen.io/" title="CSS / HTML5 playground (CodePen)">CSS / HTML5 playground (CodePen)</a></li>
+<li><a href="http://jsfiddle.net/" title="CSS / JS playground (JSFiddle)">CSS / JS playground (JSFiddle)</a></li>
+<li><a href="http://cssdeck.com" title="CSS playground (CSSDeck)">CSS playground (CSSDeck)</a></li>
+<li><a href="http://dabblet.com/" title="CSS playground (Dabblet)">CSS playground (Dabblet)</a></li>
+<li><a href="http://wufoo.com/" title="Custom form generator (Wufoo)">Custom form generator (Wufoo)</a></li>
+<li><a href="http://html5boilerplate.com/" title="HTML / CSS / JS framework (H5BP)">HTML / CSS / JS framework (H5BP)</a></li>
+<li><a href="http://twitter.github.com/bootstrap/#" title="HTML / CSS / JS framework (Twitter Bootstrap)">HTML / CSS / JS framework (Twitter Bootstrap)</a></li>
+<li><a href="https://github.com/LeaVerou/CSSS" title="HTML5 / CSS3 presentation framework">HTML5 / CSS3 presentation framework</a></li>
+<li><a href="http://www.ajaxload.info/" title="Loadbar library">Loadbar library</a></li>
+<li><a href="http://patterns.ava7.com/" title="Pattern library">Pattern library</a></li>
+<li><a href="http://www.sxc.hu/" title="Photo library">Photo library</a></li>
+<li><a href="http://colour.charlottedann.com/" title="Official brand colors">Official brand colors</a></li>
+<li><a href="http://pixlr.com/editor/" title="Online Photoshop">Online Photoshop</a></li>
+<li><a href="http://styloapp.com/" title="UI design tool (Stylo)">UI design tool (Stylo)</a></li>
+<li><a href="http://wireframe.cc/" title="UI design tool (Wireframe)">UI design tool (Wireframe)</a></li>
+<li><a href="http://0to255.com/" title="Color generator (0to255)">Color generator (0to255)</a></li>
+<li><a href="http://colorschemedesigner.com/" title="Color generator (CSD)">Color generator (CSD)</a></li>
+<li><a href="http://kuler.adobe.com/#themes/rating?time=30" title="Color generator (Kuler)">Color generator (Kuler)</a></li>
+<li><a href="http://www.noisetexturegenerator.com/" title="Noise texture generator">Noise texture generator</a></li>
+<li><a href="http://www.patternify.com/" title="Pattern generator">Pattern generator</a></li>
+<li><a href="http://www.stripegenerator.com/" title="Stripe generator">Stripe generator</a></li>
+</ul>
+      </section>
+  <section id="frameworks">
+<h2>Frameworks <a href="#top">top</a></h2>
+<ul>
+<li><a href="http://codepen.io/" title="CSS / HTML5 playground (CodePen)">CSS / HTML5 playground (CodePen)</a></li>
+<li><a href="http://jsfiddle.net/" title="CSS / JS playground (JSFiddle)">CSS / JS playground (JSFiddle)</a></li>
+<li><a href="http://cssdeck.com" title="CSS playground (CSSDeck)">CSS playground (CSSDeck)</a></li>
+<li><a href="http://dabblet.com/" title="CSS playground (Dabblet)">CSS playground (Dabblet)</a></li>
+<li><a href="http://wufoo.com/" title="Custom form generator (Wufoo)">Custom form generator (Wufoo)</a></li>
+<li><a href="http://html5boilerplate.com/" title="HTML / CSS / JS framework (H5BP)">HTML / CSS / JS framework (H5BP)</a></li>
+<li><a href="http://twitter.github.com/bootstrap/#" title="HTML / CSS / JS framework (Twitter Bootstrap)">HTML / CSS / JS framework (Twitter Bootstrap)</a></li>
+<li><a href="https://github.com/LeaVerou/CSSS" title="HTML5 / CSS3 presentation framework">HTML5 / CSS3 presentation framework</a></li>
+<li><a href="http://lab.hakim.se/reveal-js/" title="HTML5 / CSS3D / JS presentation framework">HTML5 / CSS3D / JS presentation framework</a></li>
+<li><a href="http://maker.github.com/ratchet/" title="iPhone app prototyping (Ratchet)">iPhone app prototyping (Ratchet)</a></li>
+</ul>
+      </section>
+  <section id="javascript">
+<h2>JavaScript <a href="#top">top</a></h2>
+<ul>
+<li><a href="https://geekytheory.com/json-iv-ejemplo-practico-de-uso-de-json-con-openweathermap/">JSON en Espanol</a></li>
+<li><a href="http://www.phpied.com/ajax-with-images/" title="AJAX with images">AJAX with images</a></li>
+<li><a href="http://www.codecademy.com/" title="Didactic JavaScript learning">Didactic JavaScript learning</a></li>
+<li><a href="http://www.blog-nouvelles-technologies.fr/archives/1126/lheure-un-compte-a-rebours-et-un-compteur-a-la-facon-apple-html-css-js/" title="jQuery countdown">jQuery countdown</a></li>
+<li><a href="http://css-tricks.com/textarea-tricks/" title="Textarea tricks">Textarea tricks</a></li>
+<li><a href="http://twitter.github.com/bootstrap/#" title="HTML / CSS / JS framework (Twitter Bootstrap)">HTML / CSS / JS framework (Twitter Bootstrap)</a></li>
+<li><a href="https://github.com/LeaVerou/CSSS" title="HTML5 / CSS3 presentation framework">HTML5 / CSS3 presentation framework</a></li>
+<li><a href="http://lab.hakim.se/reveal-js/" title="HTML5 / CSS3D / JS presentation framework">HTML5 / CSS3D / JS presentation framework</a></li>
+<li><a href="http://maker.github.com/ratchet/" title="iPhone app prototyping (Ratchet)">iPhone app prototyping (Ratchet)</a></li>
+</ul>
+      </section>
+  <section id="javascript">
+<h2>JavaScript <a href="#top">top</a></h2>
+<ul>
+<li><a href="http://www.phpied.com/ajax-with-images/" title="AJAX with images">AJAX with images</a></li>
+<li><a href="http://www.codecademy.com/" title="Didactic JavaScript learning">Didactic JavaScript learning</a></li>
+<li><a href="http://www.blog-nouvelles-technologies.fr/archives/1126/lheure-un-compte-a-rebours-et-un-compteur-a-la-facon-apple-html-css-js/" title="jQuery countdown">jQuery countdown</a></li>
+<li><a href="http://css-tricks.com/textarea-tricks/" title="Textarea tricks">Textarea tricks</a></li>
+<li><a href="http://blog.teamtreehouse.com/the-absolute-beginners-guide-to-coffeescript" title="Guide to CoffeeScript">Guide to CoffeeScript</a></li>
+<li><a href="http://jquer.in" title="Collection of jQuery plugins">Collection of jQuery plugins</a></li>
+<li><a href="http://js2coffee.org/" title="JavaScript - CoffeeScript converter">JavaScript - CoffeeScript converter</a></li>
+<li><a href="https://github.com/websanova/js-url" title="jQuery URL parser">jQuery URL parser</a></li>
+<li><a href="http://timeline.verite.co/" title="Timeline generator">Timeline generator</a></li>
+<li><a href="http://schematic-ipsum.herokuapp.com/" title="Fake JSON data generator">Fake JSON data generator</a></li>
+<li><a href="http://iwantaneff.in/repo/plugins/misc/spin.js/index.html" title="JS loader generator">JS loader generator</a></li>
+<li><a href="https://github.com/thingsinjars/jQuery-Scoped-CSS-plugin" title="&amp;lt;style scoped&amp;gt; polyfill">&amp;lt;style scoped&amp;gt; polyfill</a></li>
+<li><a href="http://scriptsrc.net/" title="&lt;link /&gt; tags for JavaScript libraries">&lt;link /&gt; tags for JavaScript libraries</a></li>
+<li><a href="http://www.philparsons.co.uk/demos/box-slider/" title="3D Slideshow (Adaptor)">3D Slideshow (Adaptor)</a></li>
+<li><a href="http://cssrefresh.frebsite.nl/" title="Auto-refresh CSS on save">Auto-refresh CSS on save</a></li>
+<li><a href="http://twitter.github.com/bootstrap/#" title="HTML / CSS / JS framework (Twitter Bootstrap)">HTML / CSS / JS framework (Twitter Bootstrap)</a></li>
+<li><a href="https://github.com/LeaVerou/CSSS" title="HTML5 / CSS3 presentation framework">HTML5 / CSS3 presentation framework</a></li>
+<li><a href="http://lab.hakim.se/reveal-js/" title="HTML5 / CSS3D / JS presentation framework">HTML5 / CSS3D / JS presentation framework</a></li>
+<li><a href="http://maker.github.com/ratchet/" title="iPhone app prototyping (Ratchet)">iPhone app prototyping (Ratchet)</a></li>
+</ul>
+      </section>
+  <section id="javascript">
+<h2>JavaScript <a href="#top">top</a></h2>
+<ul>
+<li><a href="http://www.phpied.com/ajax-with-images/" title="AJAX with images">AJAX with images</a></li>
+<li><a href="http://www.codecademy.com/" title="Didactic JavaScript learning">Didactic JavaScript learning</a></li>
+<li><a href="http://www.blog-nouvelles-technologies.fr/archives/1126/lheure-un-compte-a-rebours-et-un-compteur-a-la-facon-apple-html-css-js/" title="jQuery countdown">jQuery countdown</a></li>
+<li><a href="http://css-tricks.com/textarea-tricks/" title="Textarea tricks">Textarea tricks</a></li>
+<li><a href="http://blog.teamtreehouse.com/the-absolute-beginners-guide-to-coffeescript" title="Guide to CoffeeScript">Guide to CoffeeScript</a></li>
+<li><a href="http://jquer.in" title="Collection of jQuery plugins">Collection of jQuery plugins</a></li>
+<li><a href="http://js2coffee.org/" title="JavaScript - CoffeeScript converter">JavaScript - CoffeeScript converter</a></li>
+<li><a href="https://github.com/websanova/js-url" title="jQuery URL parser">jQuery URL parser</a></li>
+<li><a href="http://timeline.verite.co/" title="Timeline generator">Timeline generator</a></li>
+<li><a href="http://schematic-ipsum.herokuapp.com/" title="Fake JSON data generator">Fake JSON data generator</a></li>
+<li><a href="http://iwantaneff.in/repo/plugins/misc/spin.js/index.html" title="JS loader generator">JS loader generator</a></li>
+<li><a href="https://github.com/thingsinjars/jQuery-Scoped-CSS-plugin" title="&amp;lt;style scoped&amp;gt; polyfill">&amp;lt;style scoped&amp;gt; polyfill</a></li>
+<li><a href="http://scriptsrc.net/" title="&lt;link /&gt; tags for JavaScript libraries">&lt;link /&gt; tags for JavaScript libraries</a></li>
+<li><a href="http://www.philparsons.co.uk/demos/box-slider/" title="3D Slideshow (Adaptor)">3D Slideshow (Adaptor)</a></li>
+<li><a href="http://cssrefresh.frebsite.nl/" title="Auto-refresh CSS on save">Auto-refresh CSS on save</a></li>
+<li><a href="http://baijs.nl/tinycircleslider/" title="Circular slider">Circular slider</a></li>
+<li><a href="https://github.com/Schepp/CSS-Filters-Polyfill" title="CSS filters polyfill">CSS filters polyfill</a></li>
+<li><a href="http://leaverou.github.com/prefixfree/" title="CSS vendor prefixer plugin">CSS vendor prefixer plugin</a></li>
+<li><a href="http://labs.voronianski.com/jquery.avgrund.js/" title="Depth modals plugin">Depth modals plugin</a></li>
+<li><a href="http://code.google.com/p/jquery-ui-for-ipad-and-iphone/downloads/list" title="Enable dragging on tablets / smartphones">Enable dragging on tablets / smartphones</a></li>
+<li><a href="http://louisremi.com/2012/06/05/working-around-css-transitions-bugs-with-getcomputedstyle/" title="Fixing CSS transitions bugs">Fixing CSS transitions bugs</a></li>
+<li><a href="http://widgets.better2web.com/loader/" title="HTML 5 / jQuery gauge loader">HTML 5 / jQuery gauge loader</a></li>
+<li><a href="http://letteringjs.com/" title="Lettering.js">Lettering.js</a></li>
+<li><a href="http://slidesjs.com/" title="Minimalist slideshow (slidesJS)">MINIMALIST  SLIDESHOW (slidesJS)</a></li>
+<li><a href="http://adobe.github.com/web-platform/utilities/css-pseudo-elements/" title="Multiple pseudo-elements polyfill">Multiple pseudo-elements polyfill</a></li>
+<li><a href="http://numeraljs.com/" title="Number formating plugin">Number formating plugin</a></li>
+<li><a href="http://www.philparsons.co.uk/demos/box-slider/" title="3D Slideshow (Adaptor)">3D Slideshow (Adaptor)</a></li>
+<li><a href="http://cssrefresh.frebsite.nl/" title="Auto-refresh CSS on save">Auto-refresh CSS on save</a></li>
+<li><a href="http://baijs.nl/tinycircleslider/" title="Circular slider">Circular slider</a></li>
+<li><a href="https://github.com/Schepp/CSS-Filters-Polyfill" title="CSS filters polyfill">CSS filters polyfill</a></li>
+<li><a href="http://leaverou.github.com/prefixfree/" title="CSS vendor prefixer plugin">CSS vendor prefixer plugin</a></li>
+<li><a href="http://labs.voronianski.com/jquery.avgrund.js/" title="Depth modals plugin">Depth modals plugin</a></li>
+<li><a href="http://code.google.com/p/jquery-ui-for-ipad-and-iphone/downloads/list" title="Enable dragging on tablets / smartphones">Enable dragging on tablets / smartphones</a></li>
+<li><a href="http://louisremi.com/2012/06/05/working-around-css-transitions-bugs-with-getcomputedstyle/" title="Fixing CSS transitions bugs">Fixing CSS transitions bugs</a></li>
+<li><a href="http://widgets.better2web.com/loader/" title="HTML 5 / jQuery gauge loader">HTML 5 / jQuery gauge loader</a></li>
+<li><a href="http://letteringjs.com/" title="Lettering.js">Lettering.js</a></li>
+<li><a href="http://slidesjs.com/" title="Minimalist slideshow (slidesJS)">Minimalist slideshow (slidesJS)</a></li>
+<li><a href="http://adobe.github.com/web-platform/utilities/css-pseudo-elements/" title="Multiple pseudo-elements polyfill">Multiple pseudo-elements polyfill</a></li>
+<li><a href="http://numeraljs.com/" title="Number formating plugin">Number formating plugin</a></li>
+<li><a href="http://benpickles.github.com/peity/" title="Plugin figures to charts (Peity)">Plugin figures to charts (Peity)</a></li>
+<li><a href="http://isotope.metafizzy.co/docs/introduction.html" title="Plugin Isotope">Plugin Isotope</a></li>
+</ul>
+      </section>
+  <section id="performance">
+<h2>Performance <a href="#top">top</a></h2>
+<ul>
+<li><a href="http://perfectionkills.com/profiling-css-for-fun-and-profit-optimization-notes/" title="CSS &amp; loadtime">CSS &amp; loadtime</a></li>
+<li><a href="http://davidwalsh.name/html5-async" title="Loading JS asynchronously">Loading JS asynchronously</a></li>
+<li><a href="http://www.igvita.com/slides/2012/html5devconf/#1" title="Loadtime optimization">Loadtime optimization</a></li>
+<li><a href="http://jtaby.com/2012/04/23/modern-web-development-part-1.html" title="WebKit Inspector">WebKit Inspector</a></li>
+<li><a href="http://www.philparsons.co.uk/demos/box-slider/" title="3D Slideshow (Adaptor)">3D Slideshow (Adaptor)</a></li>
+<li><a href="http://cssrefresh.frebsite.nl/" title="Auto-refresh CSS on save">Auto-refresh CSS on save</a></li>
+<li><a href="http://baijs.nl/tinycircleslider/" title="Circular slider">Circular slider</a></li>
+<li><a href="https://github.com/Schepp/CSS-Filters-Polyfill" title="CSS filters polyfill">CSS filters polyfill</a></li>
+<li><a href="http://leaverou.github.com/prefixfree/" title="CSS vendor prefixer plugin">CSS vendor prefixer plugin</a></li>
+<li><a href="http://labs.voronianski.com/jquery.avgrund.js/" title="Depth modals plugin">Depth modals plugin</a></li>
+<li><a href="http://code.google.com/p/jquery-ui-for-ipad-and-iphone/downloads/list" title="Enable dragging on tablets / smartphones">Enable dragging on tablets / smartphones</a></li>
+<li><a href="http://louisremi.com/2012/06/05/working-around-css-transitions-bugs-with-getcomputedstyle/" title="Fixing CSS transitions bugs">Fixing CSS transitions bugs</a></li>
+<li><a href="http://widgets.better2web.com/loader/" title="HTML 5 / jQuery gauge loader">HTML 5 / jQuery gauge loader</a></li>
+<li><a href="http://letteringjs.com/" title="Lettering.js">Lettering.js</a></li>
+<li><a href="http://slidesjs.com/" title="Minimalist slideshow (slidesJS)">Minimalist slideshow (slidesJS)</a></li>
+<li><a href="http://adobe.github.com/web-platform/utilities/css-pseudo-elements/" title="Multiple pseudo-elements polyfill">Multiple pseudo-elements polyfill</a></li>
+<li><a href="http://numeraljs.com/" title="Number formating plugin">Number formating plugin</a></li>
+<li><a href="http://benpickles.github.com/peity/" title="Plugin figures to charts (Peity)">Plugin figures to charts (Peity)</a></li>
+<li><a href="http://isotope.metafizzy.co/docs/introduction.html" title="Plugin Isotope">Plugin Isotope</a></li>
+</ul>
+      </section>
+  <section id="performance">
+<h2>Performance <a href="#top">top</a></h2>
+<ul>
+<li><a href="http://perfectionkills.com/profiling-css-for-fun-and-profit-optimization-notes/" title="CSS &amp; loadtime">CSS &amp; loadtime</a></li>
+<li><a href="http://davidwalsh.name/html5-async" title="Loading JS asynchronously">Loading JS asynchronously</a></li>
+<li><a href="http://www.igvita.com/slides/2012/html5devconf/#1" title="Loadtime optimization">Loadtime optimization</a></li>
+<li><a href="http://jtaby.com/2012/04/23/modern-web-development-part-1.html" title="WebKit Inspector">WebKit Inspector</a></li>
+<li><a href="http://www.spritecow.com/" title="CSS sprites and background-position">CSS sprites and background-position</a></li>
+<li><a href="http://spritepad.wearekiss.com/" title="CSS sprites creator">CSS sprites creator</a></li>
+<li><a href="http://www.smushit.com/ysmush.it/" title="Image compressor">Image compressor</a></li>
+<li><a href="http://refresh-sf.com/yui/" title="JS / CSS compressor">JS / CSS compressor</a></li>
+<li><a href="http://modern.ie/" title="Test your site in IE">Test your site in IE</a></li>
+<li><a href="http://neil.mixture.io/non" title="Base 64 file converter">Base 64 file converter</a></li>
+<li><a href="https://github.com/h5bp/html5-boilerplate/blob/master/.htaccess" title="Starting .htaccess file">Starting .htaccess file</a></li>
+</ul>
+  </section>
+  <section id="php">
+<h2>PHP / MySQL <a href="#top">top</a></h2>
+<li><a href="http://www.philparsons.co.uk/demos/box-slider/" title="3D Slideshow (Adaptor)">3D Slideshow (Adaptor)</a></li>
+<li><a href="http://cssrefresh.frebsite.nl/" title="Auto-refresh CSS on save">Auto-refresh CSS on save</a></li>
+<li><a href="http://baijs.nl/tinycircleslider/" title="Circular slider">Circular slider</a></li>
+<li><a href="https://github.com/Schepp/CSS-Filters-Polyfill" title="CSS filters polyfill">CSS filters polyfill</a></li>
+<li><a href="http://leaverou.github.com/prefixfree/" title="CSS vendor prefixer plugin">CSS vendor prefixer plugin</a></li>
+<li><a href="http://labs.voronianski.com/jquery.avgrund.js/" title="Depth modals plugin">Depth modals plugin</a></li>
+<li><a href="http://code.google.com/p/jquery-ui-for-ipad-and-iphone/downloads/list" title="Enable dragging on tablets / smartphones">Enable dragging on tablets / smartphones</a></li>
+<li><a href="http://louisremi.com/2012/06/05/working-around-css-transitions-bugs-with-getcomputedstyle/" title="Fixing CSS transitions bugs">Fixing CSS transitions bugs</a></li>
+<li><a href="http://widgets.better2web.com/loader/" title="HTML 5 / jQuery gauge loader">HTML 5 / jQuery gauge loader</a></li>
+<li><a href="http://letteringjs.com/" title="Lettering.js">Lettering.js</a></li>
+<li><a href="http://slidesjs.com/" title="Minimalist slideshow (slidesJS)">Minimalist slideshow (slidesJS)</a></li>
+<li><a href="http://adobe.github.com/web-platform/utilities/css-pseudo-elements/" title="Multiple pseudo-elements polyfill">Multiple pseudo-elements polyfill</a></li>
+<li><a href="http://numeraljs.com/" title="Number formating plugin">Number formating plugin</a></li>
+<li><a href="http://benpickles.github.com/peity/" title="Plugin figures to charts (Peity)">Plugin figures to charts (Peity)</a></li>
+<li><a href="http://isotope.metafizzy.co/docs/introduction.html" title="Plugin Isotope">Plugin Isotope</a></li>
+</ul>
+      </section>
+
+</body>
+
+</html>
